@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<test>
+    <intrebare>
+        <enunt>Care este capitala Frantei?</enunt>
+        <variante>
+            <varianta>Londra</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Paris</varianta>
+        </variante>
+        <raspuns>Paris</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Germaniei?</enunt>
+        <variante>
+            <varianta>Budapesta</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Bucuresti</varianta>
+        </variante>
+        <raspuns>Berlin</raspuns>
+    </intrebare>
+</test>
