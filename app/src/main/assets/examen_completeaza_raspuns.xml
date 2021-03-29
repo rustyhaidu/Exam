@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<test>
+    <intrebare>
+        <enunt>Care este capitala Frantei?</enunt>
+        <variante>
+            <varianta>Londra</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Paris</varianta>
+        </variante>
+        <raspuns>Paris</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Germaniei?</enunt>
+        <variante>
+            <varianta>Budapesta</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Bucuresti</varianta>
+        </variante>
+        <raspuns>Berlin</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Romaniei?</enunt>
+        <variante>
+            <varianta>Budapesta</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Bucuresti</varianta>
+        </variante>
+        <raspuns>Bucuresti</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Ungariei?</enunt>
+        <variante>
+            <varianta>Budapesta</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Bucuresti</varianta>
+        </variante>
+        <raspuns>Budapesta</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Ucrainei?</enunt>
+        <variante>
+            <varianta>Budapesta</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Kiev</varianta>
+        </variante>
+        <raspuns>Kiev</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Olandei?</enunt>
+        <variante>
+            <varianta>Budapesta</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Amsterdam</varianta>
+        </variante>
+        <raspuns>Amsterdam</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Spaniei?</enunt>
+        <variante>
+            <varianta>Budapesta</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Madrid</varianta>
+        </variante>
+        <raspuns>Madrid</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Croatiei?</enunt>
+        <variante>
+            <varianta>Bucuresti</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Zagreb</varianta>
+        </variante>
+        <raspuns>Zagreb</raspuns>
+    </intrebare>
+    <intrebare>
+        <enunt>Care este capitala Portugaliei?</enunt>
+        <variante>
+            <varianta>Croatiei</varianta>
+            <varianta>Berlin</varianta>
+            <varianta>Lisabona</varianta>
+        </variante>
+        <raspuns>Lisabona</raspuns>
+    </intrebare>
+</test>

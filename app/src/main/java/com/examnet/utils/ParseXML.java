@@ -19,7 +19,7 @@ public class ParseXML {
     public static Examen getExamen(Context context){
         Examen examen = new Examen();
         try {
-            InputStream is = context.getAssets().open("examene.xml");
+            InputStream is = context.getAssets().open("examen_grila.xml");
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();

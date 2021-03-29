@@ -18,16 +18,19 @@
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/raspuns_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Paris"/>
 
         <RadioButton
+            android:id="@+id/raspuns_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Berlin" />
 
         <RadioButton
+            android:id="@+id/raspuns_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Londra" />
