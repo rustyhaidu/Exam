@@ -7,6 +7,7 @@ public class Intrebare {
     private String enunt;
     private List<String> varianteRaspuns = new ArrayList<>();
     private String raspuns;
+    private String raspunsDatDeUser = "";
 
     public String getEnunt() {
         return enunt;
@@ -30,5 +31,13 @@ public class Intrebare {
 
     public void setRaspuns(String raspuns) {
         this.raspuns = raspuns;
+    }
+
+    public String getRaspunsDatDeUser() {
+        return raspunsDatDeUser;
+    }
+
+    public void setRaspunsDatDeUser(String raspunsDatDeUser) {
+        this.raspunsDatDeUser = raspunsDatDeUser;
     }
 }

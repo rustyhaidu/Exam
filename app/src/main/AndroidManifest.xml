@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamNet">
+        <activity android:name=".activities.RezolvareProblemaActivity"></activity>
         <activity android:name=".activities.GrilaActivity" />
         <activity android:name=".activities.CompleteazaRaspunsActivity" />
         <activity android:name=".activities.ScoreActivity" />

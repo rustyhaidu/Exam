@@ -21,6 +21,10 @@ import com.examnet.model.Raspunsuri;
 
 import java.util.List;
 
+/**
+ * Deprecated (replaced with Recycler view)
+ */
+
 public class ExamComplRaspAdaptor extends ArrayAdapter<Intrebare> {
 
     private static class ItemViewHolder {
@@ -29,12 +33,15 @@ public class ExamComplRaspAdaptor extends ArrayAdapter<Intrebare> {
     }
     public ExamComplRaspAdaptor(@NonNull Context context, int resource, @NonNull List<Intrebare> objects) {
         super(context, resource, objects);
+
+        for (int i = 0; i < getCount(); i++) {
+            Raspunsuri.raspunsuriComplRasp.put(i, "");
+        }
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        Raspunsuri.raspunsuriComplRasp.put(position, "");
         Intrebare intrebare = getItem(position);
         ItemViewHolder itemViewHolder;
         final View result;

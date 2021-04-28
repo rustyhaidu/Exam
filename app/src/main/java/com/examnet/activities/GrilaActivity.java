@@ -5,11 +5,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.examnet.R;
 import com.examnet.adaptors.ExamGrilaAdaptor;
+import com.examnet.adaptors.ExamGrilaRecycleAdapter;
 import com.examnet.model.Examen;
 import com.examnet.model.Raspunsuri;
 import com.examnet.utils.ParseXML;
@@ -17,7 +21,7 @@ import com.examnet.utils.ParseXML;
 
 public class GrilaActivity extends AppCompatActivity {
     Examen examen;
-    ListView listViewIntrebari;
+    RecyclerView listViewIntrebari;
     Button submit;
 
     @Override
@@ -26,9 +30,13 @@ public class GrilaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_grila);
 
         examen = ParseXML.getExamen(getApplicationContext());
+        for (int i = 0; i < examen.getIntrebari().size(); i++) {
+            Raspunsuri.raspunsuriGrila.put(i, "");
+        }
 
         listViewIntrebari = findViewById(R.id.listaIntrebariGrila);
-        ExamGrilaAdaptor examGrilaAdaptor = new ExamGrilaAdaptor(getApplicationContext(), R.layout.item_intrebare, examen.getIntrebari());
+        listViewIntrebari.setLayoutManager(new LinearLayoutManager(this));
+        ExamGrilaRecycleAdapter examGrilaAdaptor = new ExamGrilaRecycleAdapter(examen.getIntrebari());
         listViewIntrebari.setAdapter(examGrilaAdaptor);
 
         submit = findViewById(R.id.submit);
